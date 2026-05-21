@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CPEC Saint Babeth TSS</title>
+  
+ <link rel="stylesheet" href="cpec.css">
+
+</head>
+
+<body>
+
+<header>
+    <img src="Logo CPEC (2).png" alt="School Logo"width="90px"height="45px">
+    <h1>CPEC SAINT BABETH TSS</h1>
+    <p>Quality Education & Technical Skills</p>
+</header>
+
+<nav>
+    <a class="nav-link active-link" onclick="showPage('home', this)">Home</a>
+    <a class="nav-link" onclick="showPage('workshops', this)">Workshops</a>
+    <a class="nav-link" onclick="showPage('about', this)">About Us</a>
+    <a class="nav-link" onclick="showPage('contact', this)">Contact Us</a>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="active">
+    
+    <div class="hero">
+        <h2>Welcome to CPEC SAINT BABETH TSS</h2>1
+        <img src="gate.jpg" alt=""width="100%">
+         <p id="typing"></p>
+    </div>
+
+    <h3>Our Programs</h3>
+    <ul>
+        <li>Ordinary Level Education</li>
+        <li>Software Development (L3 - L5)</li>
+        <li>Multimedia Production (L3 - L5)</li>
+    </ul>
+</section>
+
+<!-- WORKSHOPS -->
+<section id="workshops">
+    <h2>Our Workshops</h2>
+
+    <div class="cards">
+        <div class="card">
+             <h3>Software Development</h3>
+             <p>Software Development is a field of study that focuses on designing, building, and maintaining computer programs and applications. At CPEC SAINT BABETH TSS, students are trained in both theoretical concepts and practical skills required to create modern digital solutions.<br><br>
+
+Learners gain knowledge in:<br><br>
+
+Programming languages such as JavaScript and Python<br>
+Web development (HTML, CSS, JavaScript)<br>
+Application design and problem-solving<br>
+Database basics and system development<br><br>
+
+Through hands-on practice in the software development workshop, students learn how to build websites, applications, and real-world projects that prepare them for employment or further studies in ICT.</p><br>
+            <p>Learn coding, web development and app creation. “Our Software Development workshop equips students with practical programming skills, enabling them to design, build, and maintain modern applications that solve real-world problems.”</p>
+            
+            <button onclick="alert('Software Workshop selected!')">Explore</button>
+            <div class="marquee">
+                <div class="track">
+        <img src="software workshop.jpg" alt="">
+        <img src="software workshop2.jpg" alt="">
+        <img src="full-stack.jpg" alt="">
+        <img src="learn to code.jpg" alt="">
+          <img src="learn to code2.jpg" alt=""> 
+          <img src="sod workshop.jpg" alt="">
+          <img src="it courses.jpg" alt="">
+        </div>
+         </div>
+    </div>
+        <div class="card">
+            <h3>Multimedia Production</h3>
+            <p>Multimedia Production involves creating digital content using different forms of media such as images, audio, video, and animation. This program equips students with creative and technical skills to produce engaging visual and digital materials. <br><br>
+
+Students learn: <br><br>
+
+Graphic design and image editing<br>
+Video production and editing<br>
+Photography and visual storytelling<br>
+Animation and digital media tools<br><br>
+
+With access to a multimedia workshop, students gain practical experience in producing professional content for media, advertising, education, and entertainment industries.</p><br><br>
+                        
+            <p>Video editing, animation, photography skills.“Our Multimedia workshop empowers learners with creative and technical skills in graphic design, video editing, and digital content production for today’s media-driven world.”</p>
+            <button onclick="alert('Multimedia Workshop selected!')">Explore</button>
+             <div class="marquee">
+                <div class="track">
+<img src="film making.jpg" alt="">
+<img src="film school.jpg" alt="">
+<img src="multi workshop.jpg" alt="">
+<img src="video-editing.jpg" alt="">
+         </div>
+    </div>       
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+       
+        CPEC SAINT BABETH TSS is a private school <br> in Gicumbi District offering both general <br> education and technical training. The school provides<br> Ordinary Level studies and specialized programs in <br>Software Development and Multimedia Production (L3–L5).<br>
+
+With modern workshops and qualified teachers,<br> the institution focuses on practical skills,<br> innovation, and preparing students for the <br>job market. The school promotes discipline,<br> creativity, and excellence, aiming to become a leading <br>center of technical education in Rwanda.<br>
+    </p>
+    <p><strong>Phone:</strong> +250 7885 560 28</p>
+<p><strong>Email Address:</strong> cpecsaintbabeth@gmail.com</p>
+<p><strong>Address:</strong> Gicumbi, Rwanda</p>
+</section>
+<!...DRAFT....>
+
+<section id="contact">
+    <div class="contact-container">
+
+        <!-- LEFT SIDE (IMAGE) -->
+        <div class="contact-image">
+            <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" alt="Contact">
+        </div>
+
+        <!-- RIGHT SIDE (FORM) -->
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+
+            <form onsubmit="sendMessage(event)">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <textarea id="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p id="msg"></p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <form onsubmit="sendMessage(event)">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+
+    <p id="msg"></p>
+</section>
+
+<footer>
+    <p>&copy; 2026 CPEC Saint Babeth TSS</p>
+</footer>
+
+<script src="cpec.js"></script>
+
+</body>
+</html>
